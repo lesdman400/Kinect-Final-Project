@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52ED6C4A-FFAC-44D0-831F-CAC74D3A14BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KinectFighter</RootNamespace>
+    <AssemblyName>KinectFighter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coding4Fun.Kinect.Wpf, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\KinectforWindowsSDKV1\Dependencies\Coding4Fun.Kinect.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Kinect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Speech\11.0.0.0__31bf3856ad364e35\Microsoft.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnergyCalculatingPassThroughStream.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Fist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fist1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\j0437084.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\skull1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ribcage1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Bone1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bonehand1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ArmBone1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\LegBone1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BoneFoot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CleanSkull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CleanRib.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CleanHand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Documents\KinectforWindowsSDKV1\Dependencies\KinectWpfViewers\Microsoft.Samples.Kinect.WpfViewers.csproj">
+      <Project>{4DE23893-27E7-423F-9BB6-BA21DAC2C45E}</Project>
+      <Name>Microsoft.Samples.Kinect.WpfViewers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-31037549.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-310551516.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-28353614.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-28341111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-310291456.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-28353991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-283536141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-283511014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SpeechLib">
+      <Guid>{D3C4A7F2-7D27-4332-B41F-593D71E16DB1}</Guid>
+      <VersionMajor>11</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cleanfire.png" />
+    <Resource Include="Images\Cleanfirearm.png" />
+    <Resource Include="Images\Cleanfireleg.png" />
+    <Resource Include="Images\numarm.png" />
+    <Resource Include="Images\numbody.png" />
+    <Resource Include="Images\numfist.png" />
+    <Resource Include="Images\numfoot.png" />
+    <Resource Include="Images\numhead.png" />
+    <Resource Include="Images\numleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\special.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\scary-skulls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-175647872.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-1755610775.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-175647945.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-1755610872.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-280405083.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-280405102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-2835110141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coollogo_com-2835110142.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

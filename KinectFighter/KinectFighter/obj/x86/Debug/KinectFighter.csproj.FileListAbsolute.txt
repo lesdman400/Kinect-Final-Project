@@ -1,0 +1,56 @@
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\bin\Debug\KinectFighter.exe
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\bin\Debug\KinectFighter.pdb
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\MainWindow.baml
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\MainWindow.g.cs
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\App.g.cs
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter_MarkupCompile.cache
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.g.resources
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.Properties.Resources.resources
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.exe
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.pdb
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\xherosonic\Documents\Visual Studio 2010\Projects\KinectFighter\KinectFighter\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\bin\Debug\KinectFighter.exe
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\bin\Debug\KinectFighter.pdb
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\MainWindow.baml
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\App.g.cs
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter_MarkupCompile.cache
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.g.resources
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.Properties.Resources.resources
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.exe
+C:\Users\Les\Downloads\KinectFighter\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.pdb
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.exe
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.pdb
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\bin\Debug\KinectFighter.exe
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\bin\Debug\KinectFighter.pdb
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\MainWindow.baml
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\App.g.cs
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter_MarkupCompile.cache
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.g.resources
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.Properties.Resources.resources
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\Interop.SpeechLib.dll
+C:\Users\Les\Downloads\KinectFighterWorking\KinectFighter\KinectFighter\obj\x86\Debug\KinectFighter.csproj.ResolveComReference.cache
